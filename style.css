@@ -15,7 +15,7 @@ a:link {
 }
 
 a:visited {
-  color: slategray;
+  color: green;
 }
 
 a:hover {
@@ -110,9 +110,11 @@ a:active {
 }
 
 img {
-  max-width:200%;
-  max-height:200%;
-  vertical-align: middle;
+  width: 600px;
+  height: auto
+  object-position: center;
+  object-fit: contain;
+
 }
 
 .one {
